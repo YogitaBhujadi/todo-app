@@ -30,7 +30,7 @@ function App() {
    };
 
     return (
-  <div className="bg-amber-100 min-h-screen">
+  <div className="bg-blue-100 min-h-screen">
     <div className=" flex justify-around border-b-2 border-slate-400 pt-4">
       {["All", "High", "Medium", "Low"].map((tab, i) => {
         return (
