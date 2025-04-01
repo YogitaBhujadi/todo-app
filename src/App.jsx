@@ -104,6 +104,8 @@ function App() {
             return;
           }
 
+          setSelectedTab("All");
+
           setTodoList([todoItem, ...todoList]);
           setTodoItem({
             task: "",
